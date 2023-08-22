@@ -1,0 +1,24 @@
+{
+  "name": "prettier-config-pdc",
+  "version": "1.0.0",
+  "description": "Shared Prettier config to accompany eslint-config-pdc",
+  "main": "prettier.config.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonedotcom/prettier-config-pdc.git"
+  },
+  "author": "Juliusz Gonera",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/phonedotcom/prettier-config-pdc/issues"
+  },
+  "homepage": "https://github.com/phonedotcom/prettier-config-pdc#readme",
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
