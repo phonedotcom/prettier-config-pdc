@@ -13,7 +13,7 @@
     "url": "git+https://github.com/phonedotcom/prettier-config-pdc.git"
   },
   "author": "Juliusz Gonera",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/phonedotcom/prettier-config-pdc/issues"
   },
