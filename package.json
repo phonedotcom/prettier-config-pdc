@@ -5,6 +5,8 @@
   "main": "prettier.config.js",
   "type": "module",
   "scripts": {
+    "deps:check": "ncu",
+    "deps:update": "ncu -u",
     "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
     "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
@@ -18,10 +20,11 @@
     "url": "https://github.com/phonedotcom/prettier-config-pdc/issues"
   },
   "homepage": "https://github.com/phonedotcom/prettier-config-pdc#readme",
-  "devDependencies": {
-    "prettier": "^3.0.2"
-  },
   "dependencies": {
     "prettier-plugin-sql": "^0.15.1"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.4",
+    "prettier": "^3.0.3"
   }
 }
