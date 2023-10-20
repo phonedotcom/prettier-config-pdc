@@ -2,7 +2,7 @@ export default {
   semi: false,
   singleQuote: true,
   trailingComma: 'none',
-  plugins: ['prettier-plugin-sql'],
+  plugins: ['prettier-plugin-embed', 'prettier-plugin-sql'],
   overrides: [
     {
       files: '*.sql',
