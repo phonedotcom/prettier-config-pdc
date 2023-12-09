@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/phonedotcom/prettier-config-pdc#readme",
   "dependencies": {
-    "prettier-plugin-embed": "^0.2.5",
+    "prettier-plugin-embed": "^0.3.1",
     "prettier-plugin-sql": "^0.15.3"
   },
   "devDependencies": {
