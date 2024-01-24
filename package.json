@@ -22,7 +22,8 @@
   "homepage": "https://github.com/phonedotcom/prettier-config-pdc#readme",
   "dependencies": {
     "prettier-plugin-embed": "^0.2.5",
-    "prettier-plugin-sql": "^0.15.3"
+    "prettier-plugin-sql": "^0.15.3",
+    "prettier-plugin-xml": "^0.1.0"
   },
   "devDependencies": {
     "npm-check-updates": "^16.14.6",
